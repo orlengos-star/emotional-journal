@@ -7,4 +7,6 @@ export const ENV = {
   isProduction: process.env.NODE_ENV === "production",
   forgeApiUrl: process.env.BUILT_IN_FORGE_API_URL ?? "",
   forgeApiKey: process.env.BUILT_IN_FORGE_API_KEY ?? "",
+  botToken: process.env.BOT_TOKEN ?? "",
+  miniAppUrl: process.env.MINI_APP_URL ?? "https://emotional-journal.manus.space",
 };
